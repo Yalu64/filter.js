@@ -1,7 +1,7 @@
 let filterList = document.getElementsByClassName('filter'); //Filter classes 
 for (let ind = 0; ind < filterList.length; ind++) {
     const windowElement = filterList[ind];
-    //Defince variables
+    //Define variables
         let controller = document.getElementById(`${windowElement.id}-controller`);
         let filterMap = new Map(); //Category Map
         let filter = new Map(); //Active Filters
